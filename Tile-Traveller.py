@@ -1,6 +1,7 @@
 x = 1
 y = 1
 
+
 #Fastar fyrir strengi
 TRAVEL_STR = "You can travel:"
 DIRECTION_N = " (N)orth"
