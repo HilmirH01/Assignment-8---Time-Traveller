@@ -1,5 +1,14 @@
 x = 1
 y = 1
+n = 1
+def x(n):
+    return n+1
+
+x(1)
+x(1)
+print (x(1))
+ 
+
 
 #Fastar fyrir strengi
 TRAVEL_STR = "You can travel:"
@@ -27,7 +36,7 @@ while x != 3 or y != 1:
         print(tile_1_1_dir + ".")
         dir_input = input("Direction: ")
         if dir_input == "n" or dir_input == "N":
-            y += 1
+            xcords(1)   
         else:
             print(ERROR_DIR)
 
