@@ -1,0 +1,1 @@
+print("Gummi er ljótur")
