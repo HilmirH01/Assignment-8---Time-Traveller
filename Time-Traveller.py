@@ -1,4 +1,7 @@
 x = 1
+def xcords(x):
+    return x + 1
+
 y = 1
 
 #Fastar fyrir strengi
@@ -27,7 +30,7 @@ while x != 3 or y != 1:
         print(tile_1_1_dir + ".")
         dir_input = input("Direction: ")
         if dir_input == "n" or dir_input == "N":
-            y += 1
+            xcords(1)
         else:
             print(ERROR_DIR)
 
