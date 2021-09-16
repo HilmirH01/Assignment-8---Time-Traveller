@@ -1,8 +1,9 @@
 x = 1
 y = 1
 
+
 #Fastar fyrir strengi
-TRAVEL_STR = "You can travel:"
+TRAVEL_STR = "You can travel: "
 DIRECTION_N = "(N)orth"
 DIRECTION_S = "(S)outh"
 DIRECTION_E = "(E)ast"
@@ -11,13 +12,13 @@ ERROR_DIR = "Not a valid direction!" #For when the user inputs an impossible dir
 
 #Breytur fyrir áttir
 tile_1_1_dir = (TRAVEL_STR + DIRECTION_N)
-tile_1_2_dir = (TRAVEL_STR + DIRECTION_N + " or " + DIRECTION_E + " or " + DIRECTION_S)
-tile_1_3_dir = (TRAVEL_STR + DIRECTION_E + " or " + DIRECTION_S)
+tile_1_2_dir = (TRAVEL_STR + DIRECTION_N + " or " + DIRECTION_E + " or " + DIRECTION_S+".")
+tile_1_3_dir = (TRAVEL_STR + DIRECTION_E + " or " + DIRECTION_S+".")
 tile_2_1_dir = (TRAVEL_STR + DIRECTION_N)
-tile_2_2_dir = (TRAVEL_STR + DIRECTION_S + " or " + DIRECTION_W)
-tile_2_3_dir = (TRAVEL_STR + DIRECTION_W + " or " + DIRECTION_E)
-tile_3_3_dir = (TRAVEL_STR + DIRECTION_W + " or " + DIRECTION_S)
-tile_3_2_dir = (TRAVEL_STR + DIRECTION_N + " or " + DIRECTION_S)
+tile_2_2_dir = (TRAVEL_STR + DIRECTION_S + " or " + DIRECTION_W+".")
+tile_2_3_dir = (TRAVEL_STR + DIRECTION_E + " or " + DIRECTION_W)+"."
+tile_3_3_dir = (TRAVEL_STR + DIRECTION_S + " or " + DIRECTION_W+".")
+tile_3_2_dir = (TRAVEL_STR + DIRECTION_N + " or " + DIRECTION_S+".")
 winning_tile_3_1 = "Victory!"
 
 
@@ -111,7 +112,7 @@ while x != 3 or y != 1:
 #When entering tile 3,1
     if x == 3 and y == 1:
         print(winning_tile_3_1)
-        
+       
 
 
 
